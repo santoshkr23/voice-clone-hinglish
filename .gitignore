@@ -12,3 +12,4 @@
 !/docker_video/*.py
 !/docker_video/script.json
 !/docker_video/extra.json
+!/Voice_Clone_Colab.ipynb

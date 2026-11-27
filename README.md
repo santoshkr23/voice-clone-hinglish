@@ -4,6 +4,12 @@ This repo is my own voice, cloned with [Chatterbox Multilingual TTS](https://git
 
 > **About the voice:** the clips in `refs/` are my voice, and I've shared them on purpose. Use them only for your own creative or educational content. Don't use my voice to impersonate me, for scams or calls, or to make fake statements. Chatterbox adds an invisible Perth watermark to every clip it generates.
 
+## Try it free in Google Colab (no GPU needed)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/santoshkr23/voice-clone-hinglish/blob/main/Voice_Clone_Colab.ipynb)
+
+Choose **Runtime → T4 GPU**, run cell 1 once, then type your text in cell 2.
+
 ## What's inside
 
 | Path | What it is |

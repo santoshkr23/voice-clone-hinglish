@@ -1,0 +1,17 @@
+{
+ "x1": {
+  "style": "reel",
+  "roman": "Problem number three, Dockerfile aur Docker ke commands, Part 2 mein! Follow karo, taaki miss na ho.",
+  "dev": "प्रॉब्लम नंबर थ्री, डॉकरफ़ाइल और डॉकर के कमांड्स, पार्ट टू में! फ़ॉलो करो, ताकि मिस न हो।"
+ },
+ "x2": {
+  "style": "reel",
+  "roman": "Docker Part 2! Pichli reel mein humne do problems dekhi. Ab teesri problem, aur Docker ke main concepts.",
+  "dev": "डॉकर पार्ट टू! पिछली रील में हमने दो प्रॉब्लम्स देखीं। अब तीसरी प्रॉब्लम, और डॉकर के मेन कॉन्सेप्ट्स।"
+ },
+ "x3": {
+  "style": "outro",
+  "roman": "Pura video dekhne ke liye YouTube pe jao, link bio mein hai.",
+  "dev": "पूरा वीडियो देखने के लिए यूट्यूब पे जाओ, लिंक बायो में है।"
+ }
+}

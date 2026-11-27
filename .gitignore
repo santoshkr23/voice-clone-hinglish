@@ -1,0 +1,14 @@
+# Publish only an allowlist: code, script, skill and voice reference clips
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/say.py
+!/Recording_Script.md
+!/refs/
+!/skill/
+!/docker_video/
+/docker_video/*
+!/docker_video/*.py
+!/docker_video/script.json
+!/docker_video/extra.json

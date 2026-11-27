@@ -1,0 +1,59 @@
+{
+ "title": "Docker 5 Minute Mein | 3 Problems Jo Docker Solve Karta Hai",
+ "scenes": [
+  {"id": "hook", "style": "reel", "lines": [
+   ["Kya aapne kabhi suna hai: \"Bhai, mere laptop pe toh chal raha tha!\"", "क्या आपने कभी सुना है, भाई, मेरे लैपटॉप पे तो चल रहा था!"],
+   ["Lekin server pe jaate hi app crash ho gayi.", "लेकिन सर्वर पे जाते ही ऐप क्रैश हो गई।"],
+   ["Aaj paanch minute mein hum samjhenge Docker, aasaan bhasha mein.", "आज पाँच मिनट में हम समझेंगे डॉकर, आसान भाषा में।"],
+   ["Docker kaun si teen badi problems solve karta hai, aur kaise.", "डॉकर कौन सी तीन बड़ी प्रॉब्लम्स सॉल्व करता है, और कैसे।"]]},
+  {"id": "what", "style": "clear", "lines": [
+   ["Sabse pehle, Docker hai kya?", "सबसे पहले, डॉकर है क्या?"],
+   ["Docker ek tool hai, jo aapki application ko ek container mein pack kar deta hai.", "डॉकर एक टूल है, जो आपकी एप्लिकेशन को एक कंटेनर में पैक कर देता है।"],
+   ["Is container mein hota hai aapka code, libraries, settings aur runtime, sab kuch ek saath.", "इस कंटेनर में होता है आपका कोड, लाइब्रेरीज़, सेटिंग्स और रनटाइम, सब कुछ एक साथ।"],
+   ["Bilkul shipping container ki tarah: andar kuch bhi ho, bahar se sab ek jaise.", "बिल्कुल शिपिंग कंटेनर की तरह, अंदर कुछ भी हो, बाहर से सब एक जैसे।"],
+   ["Isliye unhe kisi bhi jahaz, truck ya train par chalaya ja sakta hai.", "इसलिए उन्हें किसी भी जहाज़, ट्रक या ट्रेन पर चलाया जा सकता है।"]]},
+  {"id": "p1", "style": "clear", "lines": [
+   ["Problem number one: \"Mere machine pe toh chal raha tha.\"", "प्रॉब्लम नंबर वन, मेरी मशीन पे तो चल रहा था।"],
+   ["Aapke laptop pe Python 3.12 hai, aur ek library ka version 2.", "आपके लैपटॉप पे पाइथन थ्री पॉइंट ट्वेल्व है, और एक लाइब्रेरी का वर्ज़न टू।"],
+   ["Lekin server pe Python 3.8 hai, aur library ka purana version 1.", "लेकिन सर्वर पे पाइथन थ्री पॉइंट एट है, और लाइब्रेरी का पुराना वर्ज़न वन।"],
+   ["Code same hai, lekin environment alag hai, isliye app crash ho jaati hai.", "कोड सेम है, लेकिन एनवायरनमेंट अलग है, इसलिए ऐप क्रैश हो जाती है।"],
+   ["Docker ka solution: app ke saath uska poora environment bhi pack kar do.", "डॉकर का सॉल्यूशन, ऐप के साथ उसका पूरा एनवायरनमेंट भी पैक कर दो।"],
+   ["Ab yahi container laptop pe bhi chalega, testing server pe bhi, aur production mein bhi.", "अब यही कंटेनर लैपटॉप पे भी चलेगा, टेस्टिंग सर्वर पे भी, और प्रोडक्शन में भी।"],
+   ["Ek baar banao, kahin bhi chalao.", "एक बार बनाओ, कहीं भी चलाओ।"]]},
+  {"id": "p2", "style": "clear", "lines": [
+   ["Problem number two: setup ka sir dard.", "प्रॉब्लम नंबर टू, सेटअप का सिरदर्द।"],
+   ["Team mein naya developer aaya, aur project chalane ke liye use das cheezein install karni hain.", "टीम में नया डेवलपर आया, और प्रोजेक्ट चलाने के लिए उसे दस चीज़ें इंस्टॉल करनी हैं।"],
+   ["Database, cache, sahi version ka Node, environment variables, aur pata nahi kya kya.", "डेटाबेस, कैश, सही वर्ज़न का नोड, एनवायरनमेंट वेरिएबल्स, और पता नहीं क्या क्या।"],
+   ["Aur kabhi do projects ko ek hi machine pe alag versions chahiye, jo aapas mein takra jaate hain.", "और कभी दो प्रोजेक्ट्स को एक ही मशीन पे अलग वर्ज़न्स चाहिए, जो आपस में टकरा जाते हैं।"],
+   ["Docker ke saath, har service apne alag container mein chalti hai, poori tarah isolated.", "डॉकर के साथ, हर सर्विस अपने अलग कंटेनर में चलती है, पूरी तरह आइसोलेटेड।"],
+   ["Aur Docker Compose ki ek file se, poora setup ek command mein start ho jaata hai.", "और डॉकर कंपोज़ की एक फ़ाइल से, पूरा सेटअप एक कमांड में स्टार्ट हो जाता है।"],
+   ["Jo kaam do din leta tha, ab kuch minute mein.", "जो काम दो दिन लेता था, अब कुछ मिनट में।"]]},
+  {"id": "p3", "style": "clear", "lines": [
+   ["Problem number three: virtual machines bhaari aur slow hain.", "प्रॉब्लम नंबर थ्री, वर्चुअल मशीन्स भारी और स्लो हैं।"],
+   ["Har virtual machine ke andar ek poora operating system chalta hai.", "हर वर्चुअल मशीन के अंदर एक पूरा ऑपरेटिंग सिस्टम चलता है।"],
+   ["Matlab kai GB memory, aur start hone mein minute lag jaate hain.", "मतलब कई जीबी मेमोरी, और स्टार्ट होने में मिनट लग जाते हैं।"],
+   ["Containers host ka kernel share karte hain, isliye halke hote hain, aksar sirf kuch MB ke.", "कंटेनर्स होस्ट का कर्नल शेयर करते हैं, इसलिए हल्के होते हैं, अक्सर सिर्फ़ कुछ एमबी के।"],
+   ["Aur seconds mein start ho jaate hain.", "और सेकंड्स में स्टार्ट हो जाते हैं।"],
+   ["Socho sale ke din aapki website pe achanak traffic dus guna badh gaya.", "सोचो सेल के दिन आपकी वेबसाइट पे अचानक ट्रैफ़िक दस गुना बढ़ गया।"],
+   ["Docker ke saath: ek container se das container, kuch hi seconds mein.", "डॉकर के साथ, एक कंटेनर से दस कंटेनर, कुछ ही सेकंड्स में।"]]},
+  {"id": "concepts", "style": "clear", "lines": [
+   ["Ab teen words yaad rakho: Dockerfile, Image aur Container.", "अब तीन वर्ड्स याद रखो, डॉकरफ़ाइल, इमेज और कंटेनर।"],
+   ["Dockerfile ek recipe hai, jismein likha hota hai ki app kaise banegi.", "डॉकरफ़ाइल एक रेसिपी है, जिसमें लिखा होता है कि ऐप कैसे बनेगी।"],
+   ["Image us recipe se bana hua packed tiffin hai, jo kabhi badalta nahi.", "इमेज उस रेसिपी से बना हुआ पैक्ड टिफ़िन है, जो कभी बदलता नहीं।"],
+   ["Aur Container, image ka chalta hua roop. Jaise tiffin khol ke khana serve ho gaya.", "और कंटेनर, इमेज का चलता हुआ रूप। जैसे टिफ़िन खोल के खाना सर्व हो गया।"],
+   ["Ek image se aap jitne chahe utne containers chala sakte ho.", "एक इमेज से आप जितने चाहे उतने कंटेनर्स चला सकते हो।"]]},
+  {"id": "commands", "style": "clear", "lines": [
+   ["Aur yeh sab sirf do commands mein.", "और ये सब सिर्फ़ दो कमांड्स में।"],
+   ["docker build se image banti hai.", "डॉकर बिल्ड से इमेज बनती है।"],
+   ["Aur docker run se container start hota hai.", "और डॉकर रन से कंटेनर स्टार्ट होता है।"],
+   ["Chal rahe containers dekhne ke liye: docker ps.", "चल रहे कंटेनर्स देखने के लिए, डॉकर पी एस।"]]},
+  {"id": "recap", "style": "outro", "lines": [
+   ["Toh chalo, ab jaldi se recap karte hain.", "तो चलो, अब जल्दी से री-कैप करते हैं।"],
+   ["Docker solve karta hai: \"mere machine pe chal raha tha\", setup ka sir dard, aur bhaari virtual machines.", "डॉकर सॉल्व करता है, मेरी मशीन पे चल रहा था वाली प्रॉब्लम, सेटअप का सिरदर्द, और भारी वर्चुअल मशीन्स।"],
+   ["Ek baar banao, kahin bhi chalao. Yahi hai Docker.", "एक बार बनाओ, कहीं भी चलाओ। यही है डॉकर।"],
+   ["Agle video mein hum apni pehli app Docker mein chala ke dekhenge.", "अगले वीडियो में हम अपनी पहली ऐप डॉकर में चला के देखेंगे।"],
+   ["Video helpful laga ho toh like karo, share karo, aur channel subscribe karna mat bhoolna!", "वीडियो हेल्पफ़ुल लगा हो तो लाइक करो, शेयर करो, और चैनल सब्सक्राइब करना मत भूलना!"]]},
+  {"id": "notes", "style": "outro", "lines": [
+   ["Agar tumhe Docker ke handwritten notes free mein chahiye, toh comment mein \"DOCKER\" likho, main tumhe message mein bhej dunga.", "अगर तुम्हें डॉकर के हैंडरिटन नोट्स फ़्री में चाहिए, तो कमेंट में डॉकर लिखो, मैं तुम्हें मैसेज में भेज दूँगा।"]]}
+ ]
+}

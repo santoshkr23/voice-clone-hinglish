@@ -1,0 +1,9 @@
+# Install torch with CUDA first:
+#   pip install torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+chatterbox-tts==0.1.7
+setuptools<81        # needed by the Perth watermarker (pkg_resources)
+faster-whisper       # line checking / word timestamps
+soundfile
+numpy
+pillow               # video frame rendering
+# Also needs ffmpeg on PATH
